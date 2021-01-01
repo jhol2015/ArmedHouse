@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .max-width {
     max-width: 1300px;
     padding: 0 80px;
@@ -55,6 +59,7 @@
 }
 
 .navbar .menu li a {
+    display: block;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -503,8 +508,8 @@ footer span a:hover {
 
 footer p {
     font-size: 10px;
-    text-decoration: none;
     text-align: right;
+
 }
 
 /* End Footer Section Styling */
@@ -517,6 +522,7 @@ footer p {
 }
 
 @media (max-width: 1104px) {
+
     .about .about-content .left img {
         height: 350px;
         width: 350px;

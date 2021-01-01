@@ -11,4 +11,20 @@ $(document).ready(function () {
         $(" .navbar .menu").toggleClass("active");
         $(" .menu-btn i").toggleClass("active");
     });
+
+    /* Typing Animation Script */
+    var typed = new Typed(".typing", {
+        strings: ["Assessoria Armamentista", "Consultoria"],
+        typeSpeed: 130,
+        backSpeed: 80,
+        loop: true
+    });
+
+    var typed = new Typed(".typing-2", {
+        strings: ["House", "and safe"],
+        typeSpeed: 130,
+        backSpeed: 80,
+        loop: true
+    });
+    /* End Typing Animation Script */
 });
