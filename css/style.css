@@ -203,7 +203,7 @@ section .title::after {
 /* About Section Styling */
 
 .about .title::after {
-    content: "Who i am";
+    content: "História";
 }
 
 .about .about-content .left {
@@ -254,7 +254,7 @@ section .title::after {
 
 .services .title::after {
     background: #111;
-    content: "What i provid";
+    content: "Conte conosco";
 }
 
 .services .serv-content .card {
@@ -299,7 +299,7 @@ section .title::after {
 
 /* News Section Styling */
 .news .title::after {
-    content: "Breaking news";
+    content: "Atualizadas";
 }
 
 .news .carousel .card {
@@ -494,10 +494,12 @@ footer {
 
 /* Footer Section Styling */
 footer {
-    padding: 20px 23px;
+    padding: 10px 20px;
 }
 
 footer span a {
+    text-align: justify;
+    font-size: 15px;
     color: crimson;
     text-decoration: underline;
 }
@@ -507,7 +509,7 @@ footer span a:hover {
 }
 
 footer p {
-    font-size: 10px;
+    font-size: 8px;
     text-align: right;
 
 }
